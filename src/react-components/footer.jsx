@@ -4,7 +4,7 @@ import { FooterContainer, Logo, Socials } from "../styled-components/footer";
 const Footer = ({ scrollTop }) => {
   return (
     <FooterContainer>
-      <Link to="/">
+      <Link to="/pizzeria-raffaele/">
         <Logo onClick={scrollTop}>
           <span className="primary">Pi</span>zze
           <span className="secondary">ria</span>

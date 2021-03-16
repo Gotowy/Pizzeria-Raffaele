@@ -28,7 +28,7 @@ const Home = ({ scrollTop }) => {
           Nie wierzysz? Przekonaj się sam! <br />
           <br />
         </span>
-        <Link to="/menu">
+        <Link to="/pizzeria-raffaele/menu">
           <MenuBtn onClick={scrollTop}>SPRAWDŹ NASZE MENU</MenuBtn>
         </Link>
       </LeftContainer>

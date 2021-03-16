@@ -29,7 +29,7 @@ const MenuMobile = ({ scrollTop }) => {
       <nav>
         <MenuContainer>
           <LogoContainer>
-            <Link to="/">
+            <Link to="/pizzeria-raffaele/">
               <Logo onClick={scrollTop}>
                 <Color primary>Pi</Color>zze<Color>ria</Color>
                 <br />
@@ -44,22 +44,22 @@ const MenuMobile = ({ scrollTop }) => {
 
           <MenuListMobile isOpened={isOpened}>
             <li>
-              <Link to="/">
+              <Link to="/pizzeria-raffaele/">
                 <MenuLink onClick={handleClick}>Strona główna</MenuLink>
               </Link>
             </li>
             <li>
-              <Link to="/menu">
+              <Link to="/pizzeria-raffaele/menu">
                 <MenuLink onClick={handleClick}>Menu</MenuLink>
               </Link>
             </li>
             <li>
-              <Link to="/delivery">
+              <Link to="/pizzeria-raffaele/delivery">
                 <MenuLink onClick={handleClick}>Dostawa</MenuLink>
               </Link>
             </li>
             <li>
-              <Link to="/contact">
+              <Link to="/pizzeria-raffaele/contact">
                 <MenuLink onClick={handleClick}>Kontakt</MenuLink>
               </Link>
             </li>

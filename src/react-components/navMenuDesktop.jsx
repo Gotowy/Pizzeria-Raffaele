@@ -16,17 +16,17 @@ const MenuDesktop = ({ scrollTop }) => {
         <MenuContainer>
           <MenuListDesktop>
             <li>
-              <Link to="/">
+              <Link to="/pizzeria-raffaele/">
                 <MenuLink onClick={scrollTop}>Strona główna</MenuLink>
               </Link>
             </li>
             <li>
-              <Link to="/menu">
+              <Link to="/pizzeria-raffaele/menu">
                 <MenuLink onClick={scrollTop}>Menu</MenuLink>
               </Link>
             </li>
             <LogoContainer>
-              <Link to="/">
+              <Link to="/pizzeria-raffaele/">
                 <Logo onClick={scrollTop}>
                   <Color primary>Pi</Color>zze
                   <Color>ria</Color>
@@ -37,12 +37,12 @@ const MenuDesktop = ({ scrollTop }) => {
               </Link>
             </LogoContainer>
             <li>
-              <Link to="/delivery">
+              <Link to="/pizzeria-raffaele/delivery">
                 <MenuLink onClick={scrollTop}>Dostawa</MenuLink>
               </Link>
             </li>
             <li>
-              <Link to="/contact">
+              <Link to="/pizzeria-raffaele/contact">
                 <MenuLink onClick={scrollTop}>Kontakt</MenuLink>
               </Link>
             </li>

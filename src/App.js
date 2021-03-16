@@ -55,16 +55,16 @@ function App() {
           <Pattern>
             <Main>
               <Switch>
-                <Route exact path="/">
+                <Route exact path="/pizzeria-raffaele/">
                   <Home scrollTop={scrollTop} />
                 </Route>
-                <Route path="/menu">
+                <Route path="/pizzeria-raffaele/menu">
                   <Menu />
                 </Route>
-                <Route path="/delivery">
+                <Route path="/pizzeria-raffaele/delivery">
                   <Delivery />
                 </Route>
-                <Route path="/contact">
+                <Route path="/pizzeria-raffaele/contact">
                   <Contact />
                 </Route>
               </Switch>
