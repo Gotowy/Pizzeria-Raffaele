@@ -1,0 +1,44 @@
+/* RESET */
+body,
+nav,
+main,
+footer,
+p,
+a,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+
+a {
+  color: #fff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100%;
+  font-family: "Poppins";
+  color: #fff;
+ 
+}
+
+/* .head {
+  width: 300px;
+  margin: 80px auto auto auto;
+  padding: 0 20px;
+  text-align: center;
+  font-size: 48px;
+  color: #fff;
+  font-weight: 900;
+  background: #000a;
+  border-radius: 10px;
+} */
+
