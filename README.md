@@ -1,6 +1,6 @@
 # pizzeria-raffaele
 
-This is the second version of Pizzeria Raffaele (my first personal project) re-built with React and styled components. The main purpose was to design and build from scratch a simple and responsive web application which could simulate a page of some actual restaurant.
+This is the second version of Pizzeria Raffaele (my first personal project) re-built with React and Styled Components. The main purpose was to design and build from scratch a simple and responsive web application which could simulate a page of some actual restaurant.
 
 ## Built with:
 
