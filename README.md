@@ -4,9 +4,9 @@ This is the second version of Pizzeria Raffaele (my first personal project) re-b
 
 ## Built with:
 
-HTML i CSS (flex-box, grid, media queries)<br/>
+HTML & CSS (flex-box, grid, media queries)<br/>
 JavaScript<br/>
-React (Hooks, React-Router-DOM"<br/>
+React (Hooks, React-Router-DOM)<br/>
 Styled Components <br />
 Google fonts<br/>
 Font awesome<br/>
